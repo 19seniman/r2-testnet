@@ -11,7 +11,6 @@ Fitur-Fitur Utama:
 ⏱ Delay Antar Aksi untuk memastikan proses dilakukan dengan lancar dan menghindari spam pada jaringan.
 
 🔐 Penanganan Private Key secara aman untuk berinteraksi dengan wallet tanpa mengungkapkan private key secara langsung.
-
 ## REGISTER
 - https://r2.money?code=HWNIR
 
@@ -19,16 +18,17 @@ Cara Menggunakan:
 ```
 git clone https://github.com/19seniman/r2-testnet.git
 ```
+cd r2-testnet
 ```
-cd R2-Testnet
-```
-
+aktifkan venv
+---
+python3 -m venv r2-testnet
+source r2-testnet/bin/activate
 Instal dependensi yang dibutuhkan:
 ```
 pip install web3 requests rich
 ```
-Atur private key di 
-# pk.txt
+Atur private key di  nano pk.txt
 
 Jalankan skrip:
 ```
