@@ -23,10 +23,11 @@ aktifkan venv:
 ---
 python3 -m venv r2-testnet
 source r2-testnet/bin/activate
-Instal dependensi yang dibutuhkan:
+---
+Instal dependensi yang dibutuhkan
+---
 pip install web3 requests rich
 ---
-Atur private key di  nano pk.txt
+masukan private key di  nano pk.txt
 Jalankan skrip:
-```
-python bot.py
+```python bot.py
