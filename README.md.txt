@@ -38,4 +38,4 @@ Jalankan skrip:
 ```
 python bot.py
 ```
-Join AirDropFamilyIDN  https://t.me/AirdropFamilyIDN
+
