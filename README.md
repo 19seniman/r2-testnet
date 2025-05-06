@@ -20,14 +20,12 @@ git clone https://github.com/19seniman/r2-testnet.git
 cd r2-testnet
 ---
 aktifkan venv:
----
 python3 -m venv r2-testnet
 source r2-testnet/bin/activate
 ---
-Instal dependensi yang dibutuhkan
----
+Instal dependensi yang dibutuhkan:
 pip install web3 requests rich
 ---
 masukan private key di  nano pk.txt
 Jalankan skrip:
-```python bot.py
+python bot.py
